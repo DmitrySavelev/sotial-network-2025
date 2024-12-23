@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Navbar from "./components/NavBar";
 import Profile from "./components/Profile";
 
-const App = () => {
+const App = () => {  
   return (
     <div className="app-wrapper">
       <Header />
