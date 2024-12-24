@@ -1,0 +1,23 @@
+# Query: navbar
+# ContextLines: 1
+
+6 results - 2 files
+
+src\App.jsx:
+   2  import Header from "./components/Header";
+   3: import Navbar from "./components/Navbar";
+   4  import Profile from "./components/Profile";
+
+   9        <Header />
+  10:       <Navbar />
+  11        <Profile />
+
+src\components\NavBar.jsx:
+   1: import s from "./Navbar.module.css";
+   2  
+   3: const Navbar = () => {
+   4    return (
+
+  34  
+  35: export default Navbar;
+  36  
