@@ -6,7 +6,8 @@ const Post = (props) => {
       <img src="https://assets.change.org/photos/3/ml/nr/WLMLnRbACdbcapg-1600x900-noPad.jpg?1548279724" />
       {props.message}
       <div>
-        <span>like </span>{props.likesCount}
+        <span>like </span>
+        {props.likesCount}
       </div>
     </div>
   );
